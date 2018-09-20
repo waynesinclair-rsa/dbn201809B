@@ -45,7 +45,7 @@ public class editObject {
 
             assertEditPage();
 
-            Thread.sleep(5000);
+            //Thread.sleep(5000);
             driver.findElement(seatLocator).clear();
             driver.findElement(seatLocator).sendKeys(newSeat);
 

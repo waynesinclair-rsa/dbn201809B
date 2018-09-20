@@ -1,10 +1,10 @@
 package com.sqs.cloud9A;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+        import org.openqa.selenium.By;
+        import org.openqa.selenium.WebDriver;
+        import org.openqa.selenium.WebElement;
 
-import java.util.List;
+        import java.util.List;
 
 public class itineraryObject {
     WebDriver driver;
@@ -41,7 +41,7 @@ public class itineraryObject {
                     System.out.println("Column Contents = " + columnContents);
                     flightIDFound = true;
                     //  create the URL to navigate to the edit screen for the flightid of interest
-              //  updateLink = colVals1.get(0);
+                    //  updateLink = colVals1.get(0);
                 }
                 System.out.println("j= " + j + " : " + colVals1.get(j).getText());
                 // If we come out of the loop and have not found the ID, then print a relevant message
@@ -50,7 +50,7 @@ public class itineraryObject {
 
         String updateURL = "notdefined";
         if (flightIDFound) {
-            updateURL = "URL here";
+            // updateURL = "URL here";
             updateURL = "http://10.9.10.39:81/sqlite/Main/editflight.php?FlightID=" + flightID;
         }
         else {

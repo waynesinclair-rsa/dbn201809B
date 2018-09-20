@@ -81,8 +81,8 @@ public class AppTestA
         loginPage = new loginObject(driver);
         loginPage.populateLogIn(driver, "wsi@netactive.co.za", "xxx");
 
-        String flightID = "452";
-        String newSeatNumber = "A31";
+        String flightID = "265";
+        String newSeatNumber = "A32";
 
         itineraryObject itineraryPage;
         itineraryPage = new itineraryObject(driver);
